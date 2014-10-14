@@ -35,7 +35,6 @@ def results(guess, rand_n):
 def restart():
     again = raw_input("GG! Wanna rematch?\n>")
     yes = ["y", "Y", "Yes", "yes", "Yeah", "yeah"]
-    # pdb.set_trace()
     if again in yes:
         print "It's on!"
         start()
@@ -45,7 +44,7 @@ def restart():
  
 def start():
     rand_n = randint(1,1000)
-    print rand_n
+    #print rand_n
     input_check(rand_n)
  
 # Prints an opening statement about the game
